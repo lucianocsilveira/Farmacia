@@ -1,10 +1,10 @@
 
-public class Itens {
+public class Item {
 	private String nome;
 	private String fabricante;
 	private String fornecedor;
 	private double valorUnitario;
-	public Itens(String nome, String fabricante, String fornecedor, double valorUnitario) {
+	public Item(String nome, String fabricante, String fornecedor, double valorUnitario) {
 		this.nome = nome;
 		this.fabricante = fabricante;
 		this.fornecedor = fornecedor;
