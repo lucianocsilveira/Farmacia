@@ -8,7 +8,7 @@ public class Pedido {
 	private double total;
 	private ArrayList<Item> itens;
 	
-	public Pedido(String cliente, String Funcionario, double quantidade, double total) {
+	public Pedido(String cliente, String Funcionario, String item, double quantidade, double total) {
 	
 		this.itens = new ArrayList<Item>();
 	}	
